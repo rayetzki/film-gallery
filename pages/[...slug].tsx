@@ -43,8 +43,8 @@ export default function BasicPage({
 	return (
 		<main>
 			<Head>
-				<title>Пленочная I & O</title>
-				<meta name="description" content={`${page} от I & O`} />
+				<title>Film photo lobby by I & O</title>
+				<meta name="description" content={`${page} by I & O`} />
 			</Head>
 			
 			<Navbar />
@@ -55,7 +55,7 @@ export default function BasicPage({
 							key={index}
 							width={width}
 							original={src}
-							alt={`Страница ${page} - ${index}-я картинка`}
+							alt={`Page ${page} - image №${index}`}
 							height={height}>
 							{({ ref, open }) => (
 								<article 
@@ -67,9 +67,9 @@ export default function BasicPage({
 										key={index}
 										width={400}
 										height={500}
-										alt={`Страница ${page} - ${index}-я картинка`} 
+										alt={`Page ${page} - image №${index}`}
 										src={src}
-										style={{ objectFit: 'cover', objectPosition: 'center' }}
+										style={{ height: 'auto', objectFit: 'cover', objectPosition: 'center' }}
 										priority={index <= 8}
 										loading={index > 8 ? 'lazy' : undefined}
 										placeholder='blur'
@@ -96,11 +96,11 @@ export async function getStaticPaths() {
   return {
     paths: [
 			{ params: { slug: ['animals'] } },
-      { params: { slug: ['people'] } },
-      { params: { slug: ['minimalism'] } },
-      { params: { slug: ['plants'] } },
-      { params: { slug: ['blacknwhite'] } },
-      { params: { slug: ['landscapes'] } },
+			{ params: { slug: ['people'] } },
+			{ params: { slug: ['minimalism'] } },
+			{ params: { slug: ['plants'] } },
+			{ params: { slug: ['blacknwhite'] } },
+			{ params: { slug: ['landscapes'] } },
 		],
     fallback: true
   };
@@ -110,6 +110,8 @@ export async function getStaticProps(context: GetStaticPropsContext) {
 	const folder = context.params?.slug && context.params.slug[0];
 	const API_URL = process.env.API_URL || "https://io-film.vercel.app";
 	if (!folder) return;
-	const images = await fetch(`${API_URL}/api/images?folder=${folder}`).then<ResourceApiResponse>(response => response.json());
+	const url = new URL(`${API_URL}/api/images`);
+	url.searchParams.set('folder', folder);
+	const images = await fetch(url.toString()).then<ResourceApiResponse>(response => response.json());
 	return { props: { images, page: folder } };
 }

@@ -1,53 +1,53 @@
 {
 	"cities": [
 		{
-			"city": "Карпаты",
+			"city": "Carpathians",
 			"id": "carpathian",
-			"short": "Горный воздух. Оседлый край.",
-			"date": "Август 2020",
-			"description": "Первая отпускная поездка с моей будущей супругой. До этого был здесь ещё ребёнком и впечатления остались только от весенних Карпат. Ветер, тускло, местами туман и дожди,- не самое приятное место для майовки. Но, вот теперь появились и летних. Во время сложного периода на работе, я, как компьютер забитый пилью, приехал и перезагрузился. Активный отдых, горный воздух, вкусный чай из сборов местных трав и ягод и много испытаний на прочность для вашей обуви. Имейте ввиду."
+			"short": "Mountain air. Settled land.",
+			"date": "August 2020",
+			"description": "My first vacation with my future wife. I'd been here before as a child, and my only memories were of the Carpathian mountains in spring. Windy, dim, with occasional fog and rain—not the most pleasant place for a May vacation. But now, summer vacations have arrived. During a difficult period at work, like a computer cluttered with junk, I came here and rebooted. Active recreation, mountain air, delicious tea made from local herbs and berries, and plenty of durability tests for your shoes. Keep that in mind."
 		},
 		{
-			"city": "Запорожье",
+			"city": "Zaporizhya",
 			"id": "zp",
-			"short": "Копчённые степи",
+			"short": "Endless steppe",
 			"date": "2020-",
-			"description": "Уверяю, что никогда бы не приезжал бы сюда, если бы здесь не было родственников супруги. И совсем не потому, что нечего смотреть. Смотреть есть что: много и не всегда плохого, как могло сложиться впечатление. До 'пятилеток' здесь были голые степи, поселения на берегу Днепра и вдоволь места для рыбалки, гребли, прогулок и плавания. Да и сейчас есть. Не обращайте внимания на дым от фабрик, приезжайте и увидите сами. Тарасова тропа на о. Хортица, огромный (в первую очередь широкий) скалистый маршрут Днепра и клубы дыма. Но представьте что от кальяна, так будет легче."
+			"description": "I assure you, I would never have come here if my wife's relatives hadn't been here. And not at all because there's nothing to see. There is plenty to see: plenty, and not always bad, as one might have thought. Before the five-year plans, there were bare steppes here, settlements on the banks of the Dnieper, and plenty of space for fishing, rowing, walking, and swimming. And there are still some. Ignore the smoke from the factories; come and see for yourself. The Tarasov trail on Khortytsia Island, the vast (especially wide) rocky route along the Dnieper, and clouds of smoke. But imagine smoking a hookah; it'll be easier."
 		},
 		{
-			"city": "Чернигов",
+			"city": "Сhernihiv",
 			"id": "chernihiv",
-			"short": "Уют",
-			"date": "Июнь 2021",
-			"description": "Уверяю, что никогда бы не попал сюда, если бы здесь не было моих родственников. Вот здесь приврал. Попал бы. Чуть больше ста километров от Киева, с лишним час и вот вы тут на прогулке. Может показаться, что попал в облагороженную Киевскую Русь. И не покажется, так и будет. Хватает места и для подумать, и помолиться, и даже перекусить в перерывах. Нету суеты. Практически. Ухоженно, без пафоса. Как тихая хозяйственная барышня в летах, которая оздоровилась, привела себя в форму и сбросила лет так тысячу на вид."
+			"short": "Cosiness",
+			"date": "June 2021",
+			"description": "I assure you I would never have ended up here if it weren't for my relatives. That's where I lied. I would have ended up here. Just over a hundred kilometers from Kyiv, a little over an hour, and here you are, on a stroll. You might feel like you've stumbled into a refined Kyivan Rus'. And it won't seem so; it will. There's plenty of space to think, to pray, and even to grab a bite to eat between meals. There's no fuss. Practical. It's well-kept, without pretense. Like a quiet, thrifty older woman who's gotten healthy, gotten into shape, and shaved off a thousand years."
 		},
 		{
-			"city": "Одесса",
+			"city": "Odessa",
 			"id": "odessa",
-			"short": "Хитрый и южный",
-			"date": "Июнь 2020",
-			"description": "Одесса очень скверный город - это всем известно. Не мои слова, а одного старого еврея-писателя. 100 лет назад здесь много чего было: бандитские разборки на Молдаванке, светские вечера в Одесском оперном театре, торговые споры купцов-провинциалов в местном порту и прочее и прочее. Откуда я это всё знаю? Так осталось же всё с тех пор, и не скажешь даже что было 70 лет союза. Как будто прокатилось 100 лет назад и с тех пор осталась только проводка над головой во дворах и туннелях, обломки домов и те же дорогие цены за похлёбки. Исторический памятник."
+			"short": "Cunning and southern",
+			"date": "June 2020",
+			"description": "Odessa is a very nasty city—everyone knows that. Not my words, but those of an old Jewish writer. A hundred years ago, there was a lot going on here: gang warfare on Moldavanka, social gatherings at the Odessa Opera House, trade disputes between provincial merchants at the local port, and so on and so forth. How do I know all this? Everything has remained the same since then, and you can't even tell it was 70 years of the Soviet Union. It's as if 100 years ago, and all that remains are the overhead wires in courtyards and tunnels, the ruins of buildings, and the same high prices for soup. A historical monument."
 		},
 		{
-			"city": "Харьков",
+			"city": "Kharkiv",
 			"id": "kharkiv",
-			"short": "Гордый и занятый",
-			"date": "Июнь 2020",
-			"description": "Здесь люди точно не потерпят грязи, поломок, ям и серости. Здесь уже избалованы. Это вам не Одесса. Ловите марафон на день: парк Шевченко, парк Горького, Саржин Яр. Наверное открыли карту и начали считать сколько это киллометров в длину? Ладно, разбейте дня на 2-3. Мы с моей милой так не делали, поэтому приедем ещё раз и сделаем."
+			"short": "Proud and busy",
+			"date": "June 2020",
+			"description": "People here definitely won't tolerate dirt, broken parts, potholes, and dullness. They're already spoiled here. This isn't Odessa. Catch a day marathon: Shevchenko Park, Gorky Park, Sarzhyn Yar. You probably opened a map and started counting how many kilometers that is? Okay, break it up into 2-3 days. My sweetheart and I haven't done that, so we'll come back and do it again."
 		},
 		{
-			"city": "Киев",
+			"city": "Kyiv",
 			"id": "kyiv",
-			"short": "Весь цвет большого города",
-			"date": "Июнь 2020",
-			"description": "Как киевлянин в первом поколении, ответственно вам заявляю, что это самый лучший город для жизни. Поэтому, лучше из него уехать. Да подальше, чтоб не соблазнял. Здесь смешалось всё что можно, как в доме у Облонских: царское рококко, советские панельки и нынешние веяния ярких мозаик с ровной геометрией. Не сомневаюсь что в городе вряд-ли что-то когда-то изменится. И через 10 лет, когда сюда приеду на Крещатике у меня попросят милостыню, продавщица за небольшую плату угостит местным мороженным, а сам я обойду 10-й дорогой парочку обманутых продавцов жилья в кризис 2008 года - и наконец выйду в красавец Мариинский парк. Обойду весь, дойду к зданию Рады, обойду джипы, поставленные на обочине и выйду на Печерские холмы. Покамест буду идти, повечереет, я внезапно опять натолкнусь на те же джипы, только уже возле красивых высоток с частной охраной и спущусь обратно, откуда пришёл. Больше расписывать не буду, налево на бульвар Шевченко, вверх - там спросите."
+			"short": "All the color of the big city",
+			"date": "June 2020",
+			"description": "As a first-generation Kyivite, I can assure you that this is the best city to live in. Therefore, it's best to leave. And far away, so it won't tempt you. It's a perfect blend of everything, like the Oblonskys' house: tsarist rococo, Soviet prefabricated buildings, and the current trend of bright mosaics with precise geometric patterns. I have no doubt that nothing in this city will ever change. And in 10 years, when I come back here and am asked for alms on Khreshchatyk, the saleswoman will treat me to some local ice cream for a small fee, and I'll bypass a couple of defrauded home sellers during the 2008 crisis on the tenth road—and finally, I'll reach beautiful Mariinsky Park. I'll walk all the way around, reach the Rada building, pass the jeeps parked on the side of the road, and emerge onto the Pechersk Hills. As I walk, it'll get dark, and I'll suddenly bump into the same jeeps again, this time near some beautiful high-rises with private security, and I'll head back down the way I came. I won't go into more detail, but turn left onto Shevchenko Boulevard, then up—ask there."
 		},
 		{
-			"city": "Днепр",
+			"city": "Dnieper",
 			"id": "dnieper",
-			"short": "Лучший город внизу Днепра для тех, кто живёт ещё ниже",
-			"date": "Август 2021",
-			"description": "Хорошо тут тому, кто не избалован всеми городами, описанными выше. Здесь нету чего-то такого, чего бы не было во всех предыдущих и при этом есть все тоже самое, но в меру. Сами убедитесь."
+			"short": "The best city on the Dnieper for those who live even lower down the river",
+			"date": "August 2021",
+			"description": "It's a good place for those who haven't been spoiled by all the cities described above. There's nothing here that wasn't found in all the previous ones, and at the same time, there's everything that's just right, but in moderation. See for yourself."
 		}
 	]
 }

@@ -1,8 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { ResourceApiResponse, v2 as cloudinary } from 'cloudinary';
 
-export default function handler(request: NextApiRequest, response: NextApiResponse) {
-	return cloudinary.api.resources({
+export default async function handler(request: NextApiRequest, response: NextApiResponse) {
+	return await cloudinary.api.resources({
 		resource_type: 'image',
 		type: 'upload',
 		prefix: request.query.folder,

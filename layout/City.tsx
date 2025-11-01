@@ -20,7 +20,7 @@ export function City({
 			<div className={css.Stepper__Content}>
 				<h2 className={css.Stepper__Title}>{city}</h2>
 				<h3 className={css.Stepper__Short}>{short}</h3>
-				<p title="Развернуть описание" 
+				<p title="Expand description" 
 					onClick={() => setExpanded(!isExpanded)} 	
 					className={cx(css.Stepper__Description, {
 						[css.Stepper__Description_Expanded]: isExpanded
@@ -30,8 +30,8 @@ export function City({
 				<div className={css.Stepper__Images}>
 					{images?.slice(0, 6).map((image, index) => (
 						<Item 
-							key={image.secure_url} 
-							alt={`${index}-я картинка из города ${city}`}
+							key={image.secure_url}
+							alt={`Image №${index} from ${city}`}
 							width={image.width} 
 							height={image.height} 
 							original={image.secure_url}>
@@ -43,11 +43,10 @@ export function City({
 										className={css.Stepper__Image}
 										src={image.secure_url}
 										loading="lazy"
-										layout="intrinsic"
 										width={300}
 										height={300}
 										onContextMenu={e => e.preventDefault()}
-										alt={`${index}-я картинка из города ${city}`}
+										alt={`Image №${index} from ${city}`}
 									/>
 								</div>
 							)}
