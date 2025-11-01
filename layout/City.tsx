@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import { Item } from "react-photoswipe-gallery";
 import { type City } from "../types";
 import cx from 'classnames';
@@ -38,7 +38,7 @@ export function City({
 							{({ open, ref }) => (
 								<div 
 									onClick={open} 
-									ref={ref as React.MutableRefObject<HTMLDivElement>}>
+									ref={ref}>
 									<Image
 										className={css.Stepper__Image}
 										src={image.secure_url}
@@ -47,7 +47,6 @@ export function City({
 										width={300}
 										height={300}
 										onContextMenu={e => e.preventDefault()}
-										objectFit="cover"
 										alt={`${index}-я картинка из города ${city}`}
 									/>
 								</div>

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link  from 'next/link';
 import cx from 'classnames';
 import styles from '../layout/Home.module.css';
@@ -43,7 +43,6 @@ export default function Home() {
 							width='1200'
 							height='800'
 							layout='responsive'
-							objectFit='cover'
 						/>
 						<div className={styles.AuthorFooter}>
 							<Link href='https://instagram.com/sahaydachnyi' target="_blank" rel="noopener noreferrer" className={cx(styles.Link, styles.AuthorLink)}>
@@ -61,7 +60,6 @@ export default function Home() {
 							width='1200'
 							height='800'
 							layout='responsive'
-							objectFit='cover'
 						/>
 						<div className={styles.AuthorFooter}>
 							<Link href='https://www.instagram.com/kurai_m' target="_blank" rel="noopener noreferrer" className={cx(styles.Link, styles.AuthorLink)}>
