@@ -6,21 +6,21 @@ import cx from "classnames";
 import FilmRollIcon from '../public/film-roll.svg';
 
 const Routes = [
-  { link: "/animals", caption: "Животные" },
-  { link: "/people", caption: "Люди" },
-  { link: "/minimalism", caption: "Минимализм" },
-  { link: "/plants", caption: "Растения" },
-  { link: "/blacknwhite", caption: "Черно-Белое" },
-  { link: "/landscape", caption: "Пейзажи" }
+	{ link: "/animals", caption: "Animals" },
+	{ link: "/people", caption: "People" },
+	{ link: "/minimalism", caption: "Minimalism" },
+	{ link: "/plants", caption: "Plants" },
+	{ link: "/blacknwhite", caption: "Black and White" },
+	{ link: "/landscape", caption: "Landscape" }
 ];
 
 const MobileRoutes = [
-	{ link: "/animals", caption: "Животные" },
-  { link: "/people", caption: "Люди" },
-  { link: "/minimalism", caption: "Минимализм" },
-  { link: "/plants", caption: "Растения" },
-  { link: "/blacknwhite", caption: "Черно-Белое" },
-  { link: "/landscape", caption: "Пейзажи" },
+	{ link: "/animals", caption: "Animals" },
+	{ link: "/people", caption: "People" },
+	{ link: "/minimalism", caption: "Minimalism" },
+	{ link: "/plants", caption: "Plants" },
+	{ link: "/blacknwhite", caption: "Black and White" },
+	{ link: "/landscape", caption: "Landscape" },
 ];
 
 function DesktopNav() {
@@ -58,13 +58,13 @@ function MobileNav() {
 	return (
 		<div className={styles.NavMobileBlock}>
 			<Link href="/">
-				<span className={styles.NavMobileLogoTitle} aria-label="Логотип">
+				<span className={styles.NavMobileLogoTitle} aria-label="Logo">
 					<FilmRollIcon className={styles.NavMobileLogo} />
-					<h2 className={styles.NavMobileTitle}>Пленочная I & 0</h2>
+					<h2 className={styles.NavMobileTitle}>Film Lobby by I & 0</h2>
 				</span>
 			</Link>
 			<button
-				aria-label="Кнопка навигации"
+				role="navigation"
 				onKeyDown={e => e.key === 'Enter' ? handleOpenMenu() : null}
 				tabIndex={0} 
 				onClick={handleOpenMenu} 
@@ -95,7 +95,7 @@ function MobileNav() {
 
 export default function Navbar() {
   return (
-    <nav aria-label="Основная навигация" className={styles.Nav}>
+    <nav aria-label="Main navigation" className={styles.Nav}>
       <MobileNav />
 			<DesktopNav />
     </nav>

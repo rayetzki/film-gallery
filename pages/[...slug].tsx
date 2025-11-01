@@ -69,7 +69,7 @@ export default function BasicPage({
 										height={500}
 										alt={`Page ${page} - image №${index}`}
 										src={src}
-										style={{ height: 'auto', objectFit: 'cover', objectPosition: 'center' }}
+										style={{ objectFit: 'cover', objectPosition: 'center' }}
 										priority={index <= 8}
 										loading={index > 8 ? 'lazy' : undefined}
 										placeholder='blur'

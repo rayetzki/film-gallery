@@ -94,6 +94,7 @@
 }
 
 .Stepper__Image {
+	object-fit: cover;
 	border-radius: .25em;
 	cursor: pointer;
 }

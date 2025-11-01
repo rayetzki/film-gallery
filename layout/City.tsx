@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import { Item } from "react-photoswipe-gallery";
 import { type City } from "../types";
@@ -43,8 +43,8 @@ export function City({
 										className={css.Stepper__Image}
 										src={image.secure_url}
 										loading="lazy"
-										width={300}
-										height={300}
+										width={350}
+										height={350}
 										onContextMenu={e => e.preventDefault()}
 										alt={`Image №${index} from ${city}`}
 									/>
